@@ -44,11 +44,12 @@
 | VLMo       	| Nov 3 2021  	| [paper](https://arxiv.org/abs/2111.02358) 	| [official](https://github.com/microsoft/unilm/tree/master/vlmo)  	| Mixture of unimodal experts before multimodal experts.                                                                   	|
 | BEiT-3     	| Aug 8 2022  	| [paper](https://arxiv.org/abs/2208.10442) 	| [official](https://github.com/microsoft/unilm/tree/master/beit3) 	| VLMo scaled up.                                                                                                          	|
 
-### Encoder-Decoder Models
+### 1.2 Encoder-Decoder Models
 <div align=center>
     <img src="encoder_decoder.png">
 </div>
 <center>A typical encoder-decoder VLP model</center>
+
 * Before LLM
 
 | Model Name 	| Arxiv Time  	| Paper                                         	| Code                                                          	| Comment                                                                                            	|
