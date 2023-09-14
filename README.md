@@ -8,12 +8,12 @@
 ## 1. Models
 
 ### 1.1 Encoder-Only Models
-<div align=center>
+<!-- <div align=center>
     <img src="encoder_only.png">
 </div>
 <div align=center>
     <center>A typical encoder-only two stream VLP model</center>
-</div>
+</div> -->
 
 
 * BERT-like Pretrained Family
@@ -67,12 +67,12 @@
 </div>
 
 ### 1.2 Encoder-Decoder Models
-<div align=center>
+<!-- <div align=center>
     <img src="encoder_decoder.png">
 </div>
 <div align=center>
     <center>A typical encoder-decoder VLP model</center>
-</div>
+</div> -->
 
 * Medium-scaled Encoder-Decoder Family
 
@@ -90,43 +90,71 @@
 
 </div>
 
-* Multimodal Large Language Model Family
+* Vision Signal Aligned with LLMs
 
-<div align=center>
+<!-- <div align=center>
     <img src="mllm.png">
 </div>
 <div align="center">
     <center>A typical multimodal large language model</center>
-</div>
+</div> -->
 
 <div align="center">
 
-| Model Name       	| Arxiv Time  	| Paper                                     	| Code                                                                            	| Comment 	|
-|------------------	|-------------	|-------------------------------------------	|---------------------------------------------------------------------------------	|---------	|
-| Frozen           	| Jun 25 2021 	| [paper](https://arxiv.org/abs/2106.13884) 	|                                                                                 	|         	|
-| MAGMA            	| Dec 9 2021  	| [paper](https://arxiv.org/abs/2112.05253) 	| [official](https://github.com/Aleph-Alpha/magma/tree/master)                    	|         	|
-| Flamingo         	| Apr 29 2022 	| [paper](https://arxiv.org/abs/2204.14198) 	| [OpenFlamingo](https://github.com/mlfoundations/open_flamingo)                  	|         	|
-| MetaLM           	| Jun 13 2022 	| [paper](https://arxiv.org/abs/2206.06336) 	| [official](https://github.com/microsoft/unilm/tree/master/metalm)               	|         	|
-| PaLI             	| Sep 14 2022 	| [paper](https://arxiv.org/abs/2209.06794) 	|                                                                                 	|         	|
-| LiMBeR           	| Sep 30 2022 	| [paper](https://arxiv.org/abs/2209.15162) 	| [official](https://github.com/jmerullo/limber)                                  	|         	|
-| BLIP-2           	| Jan 30 2023 	| [paper](https://arxiv.org/abs/2301.12597) 	| [official](https://github.com/salesforce/LAVIS/tree/main/projects/blip2)        	|         	|
-| KOSMOS           	| Feb 27 2023 	| [paper](https://arxiv.org/abs/2302.14045) 	| [official](https://github.com/microsoft/unilm/tree/master/kosmos-1)             	|         	|
-| PaLM-E           	| Mar 6 2023  	| [paper](https://arxiv.org/abs/2303.03378) 	|                                                                                 	|         	|
-| LLaMA-Adapter    	| Mar 28 2023 	| [paper](https://arxiv.org/abs/2303.16199) 	| [official](https://github.com/OpenGVLab/LLaMA-Adapter)                          	|         	|
-| LLaVA            	| Apr 17 2023 	| [paper](https://arxiv.org/abs/2304.08485) 	| [official](https://github.com/haotian-liu/LLaVA)                                	|         	|
-| Mini-GPT4        	| Apr 20 2023 	| [paper](https://arxiv.org/abs/2304.10592) 	| [official](https://github.com/Vision-CAIR/MiniGPT-4)                            	|         	|
-| LLaMA-Adapter-v2 	| Apr 28 2023 	| [paper](https://arxiv.org/abs/2304.15010) 	| [official](https://github.com/OpenGVLab/LLaMA-Adapter)                          	|         	|
-| Otter            	| May 5 2023  	| [paper](https://arxiv.org/abs/2305.03726) 	| [official](https://github.com/Luodian/Otter)                                    	|         	|
-| InstructBLIP     	| May 11 2023 	| [paper](https://arxiv.org/abs/2304.10592) 	| [official](https://github.com/salesforce/LAVIS/tree/main/projects/instructblip) 	|         	|
-| VisionLLM        	| May 18 2023 	| [paper](https://arxiv.org/abs/2305.11175) 	| [official](https://github.com/OpenGVLab/VisionLLM)                              	|         	|
-| KOSMOS-2         	| Jun 26 2023 	| [paper](https://arxiv.org/abs/2306.14824) 	| [official](https://github.com/microsoft/unilm/tree/master/kosmos-2)             	|         	|
-| Emu              	| Jul 11 2023 	| [paper](https://arxiv.org/abs/2307.05222) 	| [official](https://github.com/baaivision/Emu)                                   	|         	|
+| Model Name   	| Arxiv Time  	| Paper                                     	| Code                                                                            	|
+|--------------	|-------------	|-------------------------------------------	|---------------------------------------------------------------------------------	|
+| Frozen       	| Jun 25 2021 	| [paper](https://arxiv.org/abs/2106.13884) 	|                                                                                 	|
+| Flamingo     	| Apr 29 2022 	| [paper](https://arxiv.org/abs/2204.14198) 	| [OpenFlamingo](https://github.com/mlfoundations/open_flamingo)                  	|
+| MetaLM       	| Jun 13 2022 	| [paper](https://arxiv.org/abs/2206.06336) 	| [official](https://github.com/microsoft/unilm/tree/master/metalm)               	|
+| PaLI         	| Sep 14 2022 	| [paper](https://arxiv.org/abs/2209.06794) 	|                                                                                 	|
+| BLIP-2       	| Jan 30 2023 	| [paper](https://arxiv.org/abs/2301.12597) 	| [official](https://github.com/salesforce/LAVIS/tree/main/projects/blip2)        	|
+| KOSMOS       	| Feb 27 2023 	| [paper](https://arxiv.org/abs/2302.14045) 	| [official](https://github.com/microsoft/unilm/tree/master/kosmos-1)             	|
+| PaLM-E       	| Mar 6 2023  	| [paper](https://arxiv.org/abs/2303.03378) 	|                                                                                 	|
+| LLaVA        	| Apr 17 2023 	| [paper](https://arxiv.org/abs/2304.08485) 	| [official](https://github.com/haotian-liu/LLaVA)                                	|
+| Mini-GPT4    	| Apr 20 2023 	| [paper](https://arxiv.org/abs/2304.10592) 	| [official](https://github.com/Vision-CAIR/MiniGPT-4)                            	|
+| Otter        	| May 5 2023  	| [paper](https://arxiv.org/abs/2305.03726) 	| [official](https://github.com/Luodian/Otter)                                    	|
+| InstructBLIP 	| May 11 2023 	| [paper](https://arxiv.org/abs/2304.10592) 	| [official](https://github.com/salesforce/LAVIS/tree/main/projects/instructblip) 	|
+| VisionLLM    	| May 18 2023 	| [paper](https://arxiv.org/abs/2305.11175) 	| [official](https://github.com/OpenGVLab/VisionLLM)                              	|
+| KOSMOS-2     	| Jun 26 2023 	| [paper](https://arxiv.org/abs/2306.14824) 	| [official](https://github.com/microsoft/unilm/tree/master/kosmos-2)             	|
+| Emu          	| Jul 11 2023 	| [paper](https://arxiv.org/abs/2307.05222) 	| [official](https://github.com/baaivision/Emu)                                   	|
+
+</div>
+
+* Parameter-Efficient VLMs
+
+<div align="center">
+
+| Model Name       	| Arxiv Time  	| Paper                                         	| Code                                                         	|
+|------------------	|-------------	|-----------------------------------------------	|--------------------------------------------------------------	|
+| MAGMA            	| Dec 9 2021  	| [paper](https://arxiv.org/abs/2112.05253)     	| [official](https://github.com/Aleph-Alpha/magma/tree/master) 	|
+| VL-Adapter       	| Dec 13 2021 	| [paper](https://arxiv.org/abs/2112.06825)     	| [official](https://github.com/ylsung/VL_adapter)             	|
+| LiMBeR           	| Sep 30 2022 	| [paper](https://arxiv.org/abs/2209.15162)     	| [official](https://github.com/jmerullo/limber)               	|
+| LLaMA-Adapter    	| Mar 28 2023 	| [paper](https://arxiv.org/abs/2303.16199)     	| [official](https://github.com/OpenGVLab/LLaMA-Adapter)       	|
+| LLaMA-Adapter-v2 	| Apr 28 2023 	| [paper](https://arxiv.org/abs/2304.15010)     	| [official](https://github.com/OpenGVLab/LLaMA-Adapter)       	|
+| UniAdapter       	| May 21 2023 	| [paper](https://arxiv.org/pdf/2302.06605.pdf) 	| [official](https://github.com/UniAdapter/UniAdapter)         	|
+| ImageBind-LLM    	| Sep 11 2023 	| [paper](https://arxiv.org/abs/2309.03905)     	| [official](https://github.com/OpenGVLab/LLaMA-Adapter)       	|
+
+</div>
+
+* LLMs as General Interface
+
+<div align="center">
+
+| Model Name         	| Arxiv Time  	| Paper                                         	| Code                                                   	|
+|--------------------	|-------------	|-----------------------------------------------	|--------------------------------------------------------	|
+| Visual Programming 	| Nov 18 2022 	| [paper](https://arxiv.org/abs/2211.11559)     	| [official](https://github.com/allenai/visprog)         	|
+| ViperGPT           	| Mar 14 2023 	| [paper](https://arxiv.org/abs/2303.08128)     	| [official](https://github.com/cvlab-columbia/viper)    	|
+| MM-React           	| Mar 20 2023 	| [paper](https://arxiv.org/abs/2303.11381)     	| [official](https://github.com/microsoft/MM-REACT)      	|
+| Chameleon          	| May 24 2023 	| [paper](https://arxiv.org/abs/2304.09842)     	| [official](https://github.com/lupantech/chameleon-llm) 	|
+| HuggingGPT         	| May 25 2023 	| [paper](https://arxiv.org/abs/2303.17580)     	| [official](https://github.com/microsoft/JARVIS)        	|
+| IdealGPT           	| May 24 2023 	| [paper](https://arxiv.org/abs/2305.14985)     	| [official](https://github.com/Hxyou/IdealGPT)          	|
+| NextGPT            	| Sep 13 2023 	| [paper](https://arxiv.org/pdf/2309.05519.pdf) 	|                                                        	|
 
 </div>
 
 ## 2. Tasks & Datasets
 
-<div align="center">
+<!-- <div align="center">
 
 | Dataset                      	| Time 	| Size  	| Format                                           	| Task                                	| Link                                                            	|
 |------------------------------	|------	|-------	|--------------------------------------------------	|-------------------------------------	|-----------------------------------------------------------------	|
@@ -157,8 +185,71 @@
 | LAION-5B                     	| 2022 	| 5B    	| image-text pairs                                 	| pretraining                         	| https://laion.ai/blog/laion-5b/                                 	|
 | ScienceQA                    	| 2022 	| 21K   	| image-question-answer pairs                      	| VQA                                 	| https://github.com/lupantech/ScienceQA                          	|
 
+</div> -->
+
+### 2.1 Pretraining Datasets
+
+<div align="center">
+
+| Dataset              	| Time 	| Size  	| Format           	| Task                         	| Link                                                           	|
+|----------------------	|------	|-------	|------------------	|------------------------------	|----------------------------------------------------------------	|
+| SBU Captions         	| 2011 	| 1M    	| image-text pairs 	| pretraining/image captioning 	| https://vislang.ai/sbu-explorer                                	|
+| YFCC-100M            	| 2015 	| 100M  	| image-text pairs 	| pretraining                  	| https://multimediacommons.wordpress.com/yfcc100m-core-dataset/ 	|
+| CC3M                 	| 2018 	| 3M    	| image-text pairs 	| pretraining/image captioning 	| https://github.com/google-research-datasets/conceptual-12m     	|
+| LAIT                 	| 2020 	| 10M   	| image-text pairs 	| pretraining                  	|                                                                	|
+| Localized Narratives 	| 2020 	| 849K  	| image-text pairs 	| pretraining                  	| https://google.github.io/localized-narratives/                 	|
+| CC12M                	| 2021 	| 12M   	| image-text pairs 	| pretraining                  	| https://github.com/google-research-datasets/conceptual-12m     	|
+| LAION-400M           	| 2021 	| 400M  	| image-text pairs 	| pretraining                  	| https://laion.ai/laion-400-open-dataset/                       	|
+| RedCaps              	| 2021 	| 12M   	| image-text pairs 	| pretraining                  	| https://redcaps.xyz/                                           	|
+| WIT                  	| 2021 	| 37.5M 	| image-text pairs 	| pretraining                  	| https://github.com/google-research-datasets/wit                	|
+| LAION-5B             	| 2022 	| 5B    	| image-text pairs 	| pretraining                  	| https://laion.ai/blog/laion-5b/                                	|
+
+</div>
+
+### 2.2 Image Captioning
+
+<div center="align">
+
+| Dataset   	| Time 	| Size 	| Format                      	| Task             	| Link                                       	|
+|-----------	|------	|------	|-----------------------------	|------------------	|--------------------------------------------	|
+| Flickr30k 	| 2014 	| 30K  	| image-text pairs            	| image captioning 	| https://arxiv.org/abs/1505.04870           	|
+| COCO      	| 2014 	| 567K 	| image-text pairs            	| image captioning 	| https://cocodataset.org/#home              	|
+| TextCaps  	| 2020 	| 28K  	| image-text pairs            	| image captioning 	| https://textvqa.org/textcaps/              	|
+| VizWiz    	| 2020 	| 20K  	| image-question-answer pairs 	| VQA              	| https://vizwiz.org/tasks-and-datasets/vqa/ 	|
+
+</div>
+
+### 2.3 Visual Question Answering
+
+<div center="align">
+
+| Dataset       	| Time 	| Size 	| Format                                           	| Task            	| Link                                                            	|
+|---------------	|------	|------	|--------------------------------------------------	|-----------------	|-----------------------------------------------------------------	|
+| Visual Genome 	| 2017 	| 108K 	| image-question-answer pairs, region descriptions 	| VQA/pretraining 	| https://homes.cs.washington.edu/~ranjay/visualgenome/index.html 	|
+| VQA v2        	| 2017 	| 1.1M 	| question-answer pairs                            	| VQA             	| https://visualqa.org/                                           	|
+| TextVQA       	| 2019 	| 28K  	| image-question-answer pairs                      	| VQA             	| https://textvqa.org/                                            	|
+| OCR-VQA       	| 2019 	| 1M   	| image-question-answer pairs                      	| VQA             	| https://ocr-vqa.github.io/                                      	|
+| ST-VQA        	| 2019 	| 31K  	| image-question-answer pairs                      	| VQA             	| https://arxiv.org/abs/1905.13648                                	|
+| OK-VQA        	| 2019 	| 14K  	| image-question-answer pairs                      	| VQA             	| https://okvqa.allenai.org/                                      	|
+| VizWiz        	| 2020 	| 20K  	| image-question-answer pairs                      	| VQA             	| https://vizwiz.org/tasks-and-datasets/vqa/                      	|
+| IconQA        	| 2021 	| 107K 	| image-question-answer pairs                      	| VQA             	| https://iconqa.github.io/                                       	|
+| ScienceQA     	| 2022 	| 21K  	| image-question-answer pairs                      	| VQA             	| https://github.com/lupantech/ScienceQA                          	|
+
+</div>
+
+### 2.4 Visual Reasoning
+
+<div align="center">
+
+| Dataset                      	| Time 	| Size 	| Format                      	| Task                                	| Link                                                  	|
+|------------------------------	|------	|------	|-----------------------------	|-------------------------------------	|-------------------------------------------------------	|
+| NLVR                         	| 2017 	| 92K  	| image-grounded statements   	| reasoning                           	| https://lil.nlp.cornell.edu/nlvr/                     	|
+| GQA                          	| 2019 	| 1M   	| image-text pairs            	| visual reasoning/question answering 	| https://cs.stanford.edu/people/dorarad/gqa/about.html 	|
+| Visual Commonsense Reasoning 	| 2019 	| 110K 	| image-question-answer pairs 	| reasoning                           	| https://visualcommonsense.com/                        	|
+| SNLI-VE                      	| 2019 	| 530K 	| image-question-answer pairs 	| reasoning                           	| https://github.com/necla-ml/SNLI-VE                   	|
+
 </div>
 
 ## 3. Surveys
 
-## 4. Tutorial and Other Resources
+## 4. Tutorials and Other Resources
