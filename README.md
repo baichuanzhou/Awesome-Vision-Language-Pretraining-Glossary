@@ -110,6 +110,15 @@
 | BLIP-2       	| Jan 30 2023 	| [paper](https://arxiv.org/abs/2301.12597) 	| [official](https://github.com/salesforce/LAVIS/tree/main/projects/blip2)        	|
 | KOSMOS       	| Feb 27 2023 	| [paper](https://arxiv.org/abs/2302.14045) 	| [official](https://github.com/microsoft/unilm/tree/master/kosmos-1)             	|
 | PaLM-E       	| Mar 6 2023  	| [paper](https://arxiv.org/abs/2303.03378) 	|                                                                                 	|
+
+</div>
+
+* VLMs Aligned with Human Instructions
+
+<div align="center">
+
+| Model Name   	| Arxiv Time  	| Paper                                     	| Code                                                                            	|
+|--------------	|-------------	|-------------------------------------------	|---------------------------------------------------------------------------------	|
 | LLaVA        	| Apr 17 2023 	| [paper](https://arxiv.org/abs/2304.08485) 	| [official](https://github.com/haotian-liu/LLaVA)                                	|
 | Mini-GPT4    	| Apr 20 2023 	| [paper](https://arxiv.org/abs/2304.10592) 	| [official](https://github.com/Vision-CAIR/MiniGPT-4)                            	|
 | Otter        	| May 5 2023  	| [paper](https://arxiv.org/abs/2305.03726) 	| [official](https://github.com/Luodian/Otter)                                    	|
