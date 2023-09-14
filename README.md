@@ -18,6 +18,8 @@
 
 * BERT-like Pretrained Family
 
+<div align="center">
+
 | Model Name 	| Arxiv Time  	| Paper                                     	| Code                                                               	| Resources                                                                     	|
 |------------	|-------------	|-------------------------------------------	|--------------------------------------------------------------------	|-------------------------------------------------------------------------------	|
 | ViLBERT    	| Aug 6 2019  	| [paper](https://arxiv.org/abs/1908.02265) 	| [official](https://github.com/facebookresearch/vilbert-multi-task) 	|                                                                               	|
@@ -32,7 +34,11 @@
 | CLIP-ViL   	| Jul 13 2021 	| [paper](https://arxiv.org/abs/2107.06383) 	| [official](https://github.com/clip-vil/CLIP-ViL)                   	|                                                                               	|
 | METER      	| Nov 3 2021  	| [paper](https://arxiv.org/abs/2111.02387) 	| [official](https://github.com/zdou0830/METER)                      	|                                                                               	|
 
+</div>
+
 * Contrastive Learning Family
+
+<div align="center">
 
 | Model Name 	| Arxiv Time  	| Paper                                     	| Code                                                                  	| Comment                                                                          	|
 |------------	|-------------	|-------------------------------------------	|-----------------------------------------------------------------------	|----------------------------------------------------------------------------------	|
@@ -43,7 +49,11 @@
 | Florence   	| Nov 22 2021 	| [paper](https://arxiv.org/abs/2111.11432) 	|                                                                       	| Large scale contrastive pretraining and adapted to vision downstream tasks.      	|
 | FLIP       	| Dec 1 2022  	| [paper](https://arxiv.org/abs/2212.00794) 	| [offical](https://github.com/facebookresearch/flip)                   	| Further scaled up negative samples by masking out 95% image patches.             	|
 
+</div>
+
 * Large-scale Representation Learning Family
+
+<div align="center">
 
 | Model Name 	| Arxiv Time  	| Paper                                     	| Code                                                                                	| Comment                                                                                                                  	|   	|
 |------------	|-------------	|-------------------------------------------	|-------------------------------------------------------------------------------------	|--------------------------------------------------------------------------------------------------------------------------	|---	|
@@ -53,6 +63,8 @@
 | UFO        	| Nov 19 2021 	| [paper](https://arxiv.org/abs/2111.10023) 	|                                                                                     	|                                                                                                                          	|   	|
 | FLAVA      	| Dec 8 2021  	| [paper](https://arxiv.org/abs/2112.04482) 	| [official](https://github.com/facebookresearch/multimodal/tree/main/examples/flava) 	| Multitask training for unimodal and multimodal representations. Can be finetuned for a variety of downstream tasks.      	|   	|
 | BEiT-3     	| Aug 8 2022  	| [paper](https://arxiv.org/abs/2208.10442) 	| [official](https://github.com/microsoft/unilm/tree/master/beit3)                    	| VLMo scaled up.                                                                                                          	|   	|
+
+</div>
 
 ### 1.2 Encoder-Decoder Models
 <div align=center>
@@ -64,6 +76,8 @@
 
 * Medium-scaled Encoder-Decoder Family
 
+<div align="center">
+
 | Model Name 	| Arxiv Time  	| Paper                                         	| Code                                                          	| Comment                                                                                                                           	|
 |------------	|-------------	|-----------------------------------------------	|---------------------------------------------------------------	|-----------------------------------------------------------------------------------------------------------------------------------	|
 | VL-T5      	| Feb 4 2021  	| [paper](https://arxiv.org/pdf/2102.02779.pdf) 	| [official](https://github.com/j-min/VL-T5)                    	| Unified image-text tasks with text generation, also capable of grounding.                                                         	|
@@ -74,14 +88,18 @@
 | GIT        	| May 27 2022 	| [paper](https://arxiv.org/abs/2205.14100)     	| [official](https://github.com/microsoft/GenerativeImage2Text) 	| GPT-like language model conditioned on visual features extracted by pretrained ViT. (SoTA on image captioning tasks)              	|
 | DaVinci    	| Jun 15 2022 	| [paper](https://arxiv.org/abs/2206.07699)     	| [official](https://github.com/shizhediao/DaVinci)             	| Output generation conditioned on prefix texts or prefix images. Supports text and image generation.                                	|
 
+</div>
+
 * Multimodal Large Language Model Family
 
 <div align=center>
     <img src="mllm.png">
 </div>
-<div align=center>
+<div align="center">
     <center>A typical multimodal large language model</center>
 </div>
+
+<div align="center">
 
 | Model Name       	| Arxiv Time  	| Paper                                     	| Code                                                                            	| Comment 	|
 |------------------	|-------------	|-------------------------------------------	|---------------------------------------------------------------------------------	|---------	|
@@ -103,6 +121,8 @@
 | VisionLLM        	| May 18 2023 	| [paper](https://arxiv.org/abs/2305.11175) 	| [official](https://github.com/OpenGVLab/VisionLLM)                              	|         	|
 | KOSMOS-2         	| Jun 26 2023 	| [paper](https://arxiv.org/abs/2306.14824) 	| [official](https://github.com/microsoft/unilm/tree/master/kosmos-2)             	|         	|
 | Emu              	| Jul 11 2023 	| [paper](https://arxiv.org/abs/2307.05222) 	| [official](https://github.com/baaivision/Emu)                                   	|         	|
+
+</div>
 
 ## 2. Tasks & Datasets
 
