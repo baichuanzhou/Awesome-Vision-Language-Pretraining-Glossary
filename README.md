@@ -1,4 +1,4 @@
-# Vision Language Pretraining Glossary
+# Awesome Vision Language Pretraining Glossary
 
 ## 1. Models
 
@@ -40,13 +40,14 @@
 
 * Large-scale Representation Learning Family
 
-| Model Name 	| Arxiv Time  	| Paper                                     	| Code                                                                                	| Comment                                                                                                                  	|
-|------------	|-------------	|-------------------------------------------	|-------------------------------------------------------------------------------------	|--------------------------------------------------------------------------------------------------------------------------	|
-| MDETR      	| Apr 26 2021 	| [paper](https://arxiv.org/abs/2104.12763) 	| [official](https://github.com/ashkamath/mdetr)                                      	| Impressive visual grounding abilities achieved with DETR and RoBERTa                                                     	|
-| ALBEF      	| Jul 16 2021 	| [paper](https://arxiv.org/abs/2107.07651) 	| [official](https://github.com/salesforce/ALBEF)                                     	| BLIP's predecessor. Contrastive learning for unimodal representation followed by a multimodal transformer-based encoder. 	|
-| VLMo       	| Nov 3 2021  	| [paper](https://arxiv.org/abs/2111.02358) 	| [official](https://github.com/microsoft/unilm/tree/master/vlmo)                     	| Mixture of unimodal experts before multimodal experts.                                                                   	|
-| FLAVA      	| Dec 8 2021  	| [paper](https://arxiv.org/abs/2112.04482) 	| [official](https://github.com/facebookresearch/multimodal/tree/main/examples/flava) 	| Multitask training for unimodal and multimodal representations. Can be finetuned for a variety of downstream tasks.      	|
-| BEiT-3     	| Aug 8 2022  	| [paper](https://arxiv.org/abs/2208.10442) 	| [official](https://github.com/microsoft/unilm/tree/master/beit3)                    	| VLMo scaled up.                                                                                                          	|
+| Model Name 	| Arxiv Time  	| Paper                                     	| Code                                                                                	| Comment                                                                                                                  	|   	|
+|------------	|-------------	|-------------------------------------------	|-------------------------------------------------------------------------------------	|--------------------------------------------------------------------------------------------------------------------------	|---	|
+| MDETR      	| Apr 26 2021 	| [paper](https://arxiv.org/abs/2104.12763) 	| [official](https://github.com/ashkamath/mdetr)                                      	| Impressive visual grounding abilities achieved with DETR and RoBERTa                                                     	|   	|
+| ALBEF      	| Jul 16 2021 	| [paper](https://arxiv.org/abs/2107.07651) 	| [official](https://github.com/salesforce/ALBEF)                                     	| BLIP's predecessor. Contrastive learning for unimodal representation followed by a multimodal transformer-based encoder. 	|   	|
+| VLMo       	| Nov 3 2021  	| [paper](https://arxiv.org/abs/2111.02358) 	| [official](https://github.com/microsoft/unilm/tree/master/vlmo)                     	| Mixture of unimodal experts before multimodal experts.                                                                   	|   	|
+| UFO        	| Nov 19 2021 	| [paper](https://arxiv.org/abs/2111.10023) 	|                                                                                     	|                                                                                                                          	|   	|
+| FLAVA      	| Dec 8 2021  	| [paper](https://arxiv.org/abs/2112.04482) 	| [official](https://github.com/facebookresearch/multimodal/tree/main/examples/flava) 	| Multitask training for unimodal and multimodal representations. Can be finetuned for a variety of downstream tasks.      	|   	|
+| BEiT-3     	| Aug 8 2022  	| [paper](https://arxiv.org/abs/2208.10442) 	| [official](https://github.com/microsoft/unilm/tree/master/beit3)                    	| VLMo scaled up.                                                                                                          	|   	|
 
 ### 1.2 Encoder-Decoder Models
 <div align=center>
