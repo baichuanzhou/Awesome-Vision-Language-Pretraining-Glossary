@@ -3,7 +3,40 @@
 ## News
 
 ## Table of Contents
+* [1. Models](#1-models)
 
+    * [1.1 Encoder-Only Models](#11-encoder-only-models)
+        * [BERT-like Pretrained Family](#bert-like-pretrained-family)
+
+        * [Contrastive Learning Family](#contrastive-learning-family)
+
+        * [Large-scale Representation Learning Family](#large-scale-representation-learning-family)
+
+    * [1.2 Encoder-Decoder Models](#12-encoder-decoder-models)
+
+        * [Medium-scale Encoder Decoder](#medium-scaled-encoder-decoder-family)
+
+        * [Align with LLMs](#vision-signal-aligned-with-llms)
+
+        * [Align with Human Instructions](#vlms-aligned-with-human-instructions)
+
+        * [LLMs as General Interface](#llms-as-general-interface)
+
+        * [PEFT VLMS](#parameter-efficient-vlms)
+
+* [Tasks & Datasets](#2-tasks--datasets)
+
+    * [Pretraining Datasets](#21-pretraining-datasets)
+
+    * [Image Captioning Datasets](#22-image-captioning)
+
+    * [Visual Question Answering Datasets](#23-visual-question-answering)
+
+    * [Visual Reasoning Datasets](#24-visual-reasoning)
+
+* [Surveys](#3-surveys)
+
+* [Tutorials and Other Resources](#4-tutorials-and-other-resources)
 
 ## 1. Models
 
@@ -16,7 +49,7 @@
 </div> -->
 
 
-* BERT-like Pretrained Family
+* ### BERT-like Pretrained Family
 
 <div align="center">
 
@@ -36,7 +69,7 @@
 
 </div>
 
-* Contrastive Learning Family
+* ### Contrastive Learning Family
 
 <div align="center">
 
@@ -51,7 +84,7 @@
 
 </div>
 
-* Large-scale Representation Learning Family
+* ### Large-scale Representation Learning Family
 
 <div align="center">
 
@@ -74,7 +107,7 @@
     <center>A typical encoder-decoder VLP model</center>
 </div> -->
 
-* Medium-scaled Encoder-Decoder Family
+* ### Medium-scaled Encoder-Decoder Family
 
 <div align="center">
 
@@ -90,7 +123,7 @@
 
 </div>
 
-* Vision Signal Aligned with LLMs
+* ### Vision Signal Aligned with LLMs
 
 <!-- <div align=center>
     <img src="mllm.png">
@@ -113,7 +146,7 @@
 
 </div>
 
-* VLMs Aligned with Human Instructions
+* ### VLMs Aligned with Human Instructions
 
 <div align="center">
 
@@ -129,7 +162,7 @@
 
 </div>
 
-* Parameter-Efficient VLMs
+* ### Parameter-Efficient VLMs
 
 <div align="center">
 
@@ -145,7 +178,7 @@
 
 </div>
 
-* LLMs as General Interface
+* ### LLMs as General Interface
 
 <div align="center">
 
