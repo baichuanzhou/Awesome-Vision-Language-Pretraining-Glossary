@@ -24,19 +24,19 @@
 
         * [PEFT VLMS](#parameter-efficient-vlms)
 
-* [Tasks & Datasets](#2-tasks--datasets)
+* [2. Tasks & Datasets](#2-tasks--datasets)
 
-    * [Pretraining Datasets](#21-pretraining-datasets)
+    * [2.1 Pretraining Datasets](#21-pretraining-datasets)
 
-    * [Image Captioning Datasets](#22-image-captioning)
+    * [2.2 Image Captioning Datasets](#22-image-captioning)
 
-    * [Visual Question Answering Datasets](#23-visual-question-answering)
+    * [2.3 Visual Question Answering Datasets](#23-visual-question-answering)
 
-    * [Visual Reasoning Datasets](#24-visual-reasoning)
+    * [2.4 Visual Reasoning Datasets](#24-visual-reasoning)
 
-* [Surveys](#3-surveys)
+* [3. Surveys](#3-surveys)
 
-* [Tutorials and Other Resources](#4-tutorials-and-other-resources)
+* [4. Tutorials and Other Resources](#4-tutorials-and-other-resources)
 
 ## 1. Models
 
@@ -88,14 +88,15 @@
 
 <div align="center">
 
-| Model Name 	| Arxiv Time  	| Paper                                     	| Code                                                                                	| Comment                                                                                                                  	|   	|
-|------------	|-------------	|-------------------------------------------	|-------------------------------------------------------------------------------------	|--------------------------------------------------------------------------------------------------------------------------	|---	|
-| MDETR      	| Apr 26 2021 	| [paper](https://arxiv.org/abs/2104.12763) 	| [official](https://github.com/ashkamath/mdetr)                                      	| Impressive visual grounding abilities achieved with DETR and RoBERTa                                                     	|   	|
-| ALBEF      	| Jul 16 2021 	| [paper](https://arxiv.org/abs/2107.07651) 	| [official](https://github.com/salesforce/ALBEF)                                     	| BLIP's predecessor. Contrastive learning for unimodal representation followed by a multimodal transformer-based encoder. 	|   	|
-| VLMo       	| Nov 3 2021  	| [paper](https://arxiv.org/abs/2111.02358) 	| [official](https://github.com/microsoft/unilm/tree/master/vlmo)                     	| Mixture of unimodal experts before multimodal experts.                                                                   	|   	|
-| UFO        	| Nov 19 2021 	| [paper](https://arxiv.org/abs/2111.10023) 	|                                                                                     	|                                                                                                                          	|   	|
-| FLAVA      	| Dec 8 2021  	| [paper](https://arxiv.org/abs/2112.04482) 	| [official](https://github.com/facebookresearch/multimodal/tree/main/examples/flava) 	| Multitask training for unimodal and multimodal representations. Can be finetuned for a variety of downstream tasks.      	|   	|
-| BEiT-3     	| Aug 8 2022  	| [paper](https://arxiv.org/abs/2208.10442) 	| [official](https://github.com/microsoft/unilm/tree/master/beit3)                    	| VLMo scaled up.                                                                                                          	|   	|
+| Model Name 	| Arxiv Time  	| Paper                                     	| Code                                                                                	| Comment                                                                                                                  	|
+|------------	|-------------	|-------------------------------------------	|-------------------------------------------------------------------------------------	|--------------------------------------------------------------------------------------------------------------------------	|
+| MDETR      	| Apr 26 2021 	| [paper](https://arxiv.org/abs/2104.12763) 	| [official](https://github.com/ashkamath/mdetr)                                      	| Impressive visual grounding abilities achieved with DETR and RoBERTa                                                     	|
+| ALBEF      	| Jul 16 2021 	| [paper](https://arxiv.org/abs/2107.07651) 	| [official](https://github.com/salesforce/ALBEF)                                     	| BLIP's predecessor. Contrastive learning for unimodal representation followed by a multimodal transformer-based encoder. 	|
+| UniT       	| Aug 3 2021  	| [paper](https://arxiv.org/abs/2102.10772) 	| [official](https://mmf.sh/docs/projects/unit)                                       	|                                                                                                                          	|
+| VLMo       	| Nov 3 2021  	| [paper](https://arxiv.org/abs/2111.02358) 	| [official](https://github.com/microsoft/unilm/tree/master/vlmo)                     	| Mixture of unimodal experts before multimodal experts.                                                                   	|
+| UFO        	| Nov 19 2021 	| [paper](https://arxiv.org/abs/2111.10023) 	|                                                                                     	|                                                                                                                          	|
+| FLAVA      	| Dec 8 2021  	| [paper](https://arxiv.org/abs/2112.04482) 	| [official](https://github.com/facebookresearch/multimodal/tree/main/examples/flava) 	| Multitask training for unimodal and multimodal representations. Can be finetuned for a variety of downstream tasks.      	|
+| BEiT-3     	| Aug 8 2022  	| [paper](https://arxiv.org/abs/2208.10442) 	| [official](https://github.com/microsoft/unilm/tree/master/beit3)                    	| VLMo scaled up.                                                                                                          	|
 
 </div>
 
@@ -289,9 +290,12 @@
 | GQA                          	| 2019 	| 1M   	| image-text pairs            	| visual reasoning/question answering 	| https://cs.stanford.edu/people/dorarad/gqa/about.html 	|
 | Visual Commonsense Reasoning 	| 2019 	| 110K 	| image-question-answer pairs 	| reasoning                           	| https://visualcommonsense.com/                        	|
 | SNLI-VE                      	| 2019 	| 530K 	| image-question-answer pairs 	| reasoning                           	| https://github.com/necla-ml/SNLI-VE                   	|
+| Winoground                   	| 2022 	|      	| image-text pairs            	| reasoning                           	| https://huggingface.co/datasets/facebook/winoground   	|
 
 </div>
 
 ## 3. Surveys
 
 ## 4. Tutorials and Other Resources
+
+* [Andrej Karpathy, State of GPT](https://www.youtube.com/watch?v=bZQun8Y4L2A)
