@@ -124,7 +124,7 @@
 
 </div>
 
-* ### Vision Signal Aligned with LLMs
+* ### Vision Signal Aligned with LLMs(Base Models)
 
 <!-- <div align=center>
     <img src="mllm.png">
@@ -147,7 +147,7 @@
 
 </div>
 
-* ### VLMs Aligned with Human Instructions
+* ### VLMs Aligned with Human Instructions(SFT, Instruction Tuning)
 
 <div align="center">
 
@@ -163,7 +163,7 @@
 
 </div>
 
-* ### Parameter-Efficient VLMs
+* ### Parameter-Efficient VLMs(Exploring Training Schemes)
 
 <div align="center">
 
@@ -179,7 +179,7 @@
 
 </div>
 
-* ### LLMs as General Interface
+* ### LLMs as General Interface(New Frontiers in LLM Agents)
 
 <div align="center">
 
@@ -299,3 +299,5 @@
 ## 4. Tutorials and Other Resources
 
 * [Andrej Karpathy, State of GPT](https://www.youtube.com/watch?v=bZQun8Y4L2A)
+
+* [[CVPR2023 Tutorial Talk] Large Multimodal Models: Towards Building and Surpassing Multimodal GPT-4](https://www.youtube.com/watch?v=mkI7EPD1vp8)
