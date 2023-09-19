@@ -1,7 +1,5 @@
 # Awesome Vision Language Pretraining Glossary
 
-## News
-
 ## Table of Contents
 * [1. Models](#1-models)
 
@@ -179,7 +177,7 @@
 
 </div>
 
-* ### LLMs as General Interface(New Frontiers in LLM Agents)
+* ### LLMs as General Interface(New Frontiers in LLM Interface)
 
 <div align="center">
 
@@ -296,8 +294,14 @@
 
 ## 3. Surveys
 
+* [Foundational Models Defining a New Era in Vision: A Survey and Outlook](https://arxiv.org/abs/2307.13721)
+
+* [Vision-Language Pre-training: Basics, Recent Advances, and Future Trends](https://arxiv.org/abs/2210.09263)
+
 ## 4. Tutorials and Other Resources
 
 * [Andrej Karpathy, State of GPT](https://www.youtube.com/watch?v=bZQun8Y4L2A)
 
 * [[CVPR2023 Tutorial Talk] Large Multimodal Models: Towards Building and Surpassing Multimodal GPT-4](https://www.youtube.com/watch?v=mkI7EPD1vp8)
+
+* [VLP Tutorial](https://vlp-tutorial.github.io/)
