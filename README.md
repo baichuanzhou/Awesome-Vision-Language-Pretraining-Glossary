@@ -195,39 +195,6 @@
 
 ## 2. Tasks & Datasets
 
-<!-- <div align="center">
-
-| Dataset                      	| Time 	| Size  	| Format                                           	| Task                                	| Link                                                            	|
-|------------------------------	|------	|-------	|--------------------------------------------------	|-------------------------------------	|-----------------------------------------------------------------	|
-| SBU Captions                 	| 2011 	| 1M    	| image-text pairs                                 	| pretraining/image captioning        	| https://vislang.ai/sbu-explorer                                 	|
-| Flickr30k                    	| 2014 	| 30K   	| image-text pairs                                 	| image captioning                    	| https://arxiv.org/abs/1505.04870                                	|
-| COCO                         	| 2014 	| 567K  	| image-text pairs                                 	| image captioning                    	| https://cocodataset.org/#home                                   	|
-| YFCC-100M                    	| 2015 	| 100M  	| image-text pairs                                 	| pretraining                         	| https://multimediacommons.wordpress.com/yfcc100m-core-dataset/  	|
-| Visual Genome                	| 2017 	| 108K  	| image-question-answer pairs, region descriptions 	| VQA/pretraining                     	| https://homes.cs.washington.edu/~ranjay/visualgenome/index.html 	|
-| VQA v2                       	| 2017 	| 1.1M  	| question-answer pairs                            	| VQA                                 	| https://visualqa.org/                                           	|
-| NLVR                         	| 2017 	| 92K   	| image-grounded statements                        	| reasoning                           	| https://lil.nlp.cornell.edu/nlvr/                               	|
-| CC3M                         	| 2018 	| 3M    	| image-text pairs                                 	| pretraining/image captioning        	| https://github.com/google-research-datasets/conceptual-12m      	|
-| TextVQA                      	| 2019 	| 28K   	| image-question-answer pairs                      	| VQA                                 	| https://textvqa.org/                                            	|
-| GQA                          	| 2019 	| 1M    	| image-text pairs                                 	| visual reasoning/question answering 	| https://cs.stanford.edu/people/dorarad/gqa/about.html           	|
-| OCR-VQA                      	| 2019 	| 1M    	| image-question-answer pairs                      	| VQA                                 	| https://ocr-vqa.github.io/                                      	|
-| ST-VQA                       	| 2019 	| 31K   	| image-question-answer pairs                      	| VQA                                 	| https://arxiv.org/abs/1905.13648                                	|
-| Visual Commonsense Reasoning 	| 2019 	| 110K  	| image-question-answer pairs                      	| reasoning                           	| https://visualcommonsense.com/                                  	|
-| OK-VQA                       	| 2019 	| 14K   	| image-question-answer pairs                      	| VQA                                 	| https://okvqa.allenai.org/                                      	|
-| SNLI-VE                      	| 2019 	| 530K  	| image-question-answer pairs                      	| reasoning                           	| https://github.com/necla-ml/SNLI-VE                             	|
-| TextCaps                     	| 2020 	| 28K   	| image-text pairs                                 	| image captioning                    	| https://textvqa.org/textcaps/                                   	|
-| LAIT                         	| 2020 	| 10M   	| image-text pairs                                 	| pretraining                         	|                                                                 	|
-| VizWiz                       	| 2020 	| 20K   	| image-question-answer pairs                      	| VQA                                 	| https://vizwiz.org/tasks-and-datasets/vqa/                      	|
-| Localized Narratives         	| 2020 	| 849K  	| image-text pairs                                 	| pretraining                         	| https://google.github.io/localized-narratives/                  	|
-| CC12M                        	| 2021 	| 12M   	| image-text pairs                                 	| pretraining                         	| https://github.com/google-research-datasets/conceptual-12m      	|
-| LAION-400M                   	| 2021 	| 400M  	| image-text pairs                                 	| pretraining                         	| https://laion.ai/laion-400-open-dataset/                        	|
-| RedCaps                      	| 2021 	| 12M   	| image-text pairs                                 	| pretraining                         	| https://redcaps.xyz/                                            	|
-| IconQA                       	| 2021 	| 107K  	| image-question-answer pairs                      	| VQA                                 	| https://iconqa.github.io/                                       	|
-| WIT                          	| 2021 	| 37.5M 	| image-text pairs                                 	| pretraining                         	| https://github.com/google-research-datasets/wit                 	|
-| LAION-5B                     	| 2022 	| 5B    	| image-text pairs                                 	| pretraining                         	| https://laion.ai/blog/laion-5b/                                 	|
-| ScienceQA                    	| 2022 	| 21K   	| image-question-answer pairs                      	| VQA                                 	| https://github.com/lupantech/ScienceQA                          	|
-
-</div> -->
-
 ### 2.1 Pretraining Datasets
 
 <div align="center">
@@ -297,6 +264,8 @@
 * [Foundational Models Defining a New Era in Vision: A Survey and Outlook](https://arxiv.org/abs/2307.13721)
 
 * [Vision-Language Pre-training: Basics, Recent Advances, and Future Trends](https://arxiv.org/abs/2210.09263)
+
+* [Multimodal Foundation Models: From Specialists to General-Purpose Assistants](https://arxiv.org/abs/2309.10020)
 
 ## 4. Tutorials and Other Resources
 
